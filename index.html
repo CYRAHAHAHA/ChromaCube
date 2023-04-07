@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reversi!</title>
+    <link rel="stylesheet" href="chromacube.css">
+    <script src="chromacube.js" defer></script>
+</head>
+
+<body>
+    <div class="page">
+        <div class='title'>
+                <div><span style="font-style: italic">THIS IS</span></div>
+                <div><span style="font-size: 60px; font-weight: bold;">CHROMACUBE</span></div>
+        </div>
+        <div id="spincube"></div>
+    </div>
+    <div class="page">
+        <div id='howtoplay'><hr/><span style="margin-left: 2vw; margin-right: 2vw;">HOW TO PLAY</span><hr/></div>
+        <!-- 1. Select a design-->
+        <div class="horizontal">
+            <div class="imgbox"><img></div>
+            <div class="helptext">1. Select a design below</div>
+        </div>
+        <!-- 2. Panels will light up in primary colours-->
+        <div class="horizontal">
+            <div class="helptext">2. Panels will light up in primary colours</div>
+            <div class="imgbox"><img></div>
+        </div>
+        <!-- 3. Rearrange the cubes to replicate the chosen design-->
+        <div class="horizontal">
+            <div class="imgbox"><img></div>
+            <div class="helptext">3. Rearrange the cubes to recreate the chosen design</div>
+        </div>
+    </div>
+    <div class="page">
+        <table>
+            <tr>
+                <td>
+                    <button type="submit">
+                    <img src="flower.jpg" alt="buttonpng"/>
+                    </button>
+                </td>
+                <td>
+                    <button type="submit">
+                        <img src="flower.jpg" alt="buttonpng"/>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">
+                    <img src="flower.jpg" alt="buttonpng"/>
+                    </button>
+                </td>
+                <td>
+                    <button type="submit">
+                        <img src="flower.jpg" alt="buttonpng"/>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">
+                    <img src="flower.jpg" alt="buttonpng"/>
+                    </button>
+                </td>
+                <td>
+                    <button type="submit">
+                        <img src="flower.jpg" alt="buttonpng"/>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">
+                    <img src="flower.jpg" alt="buttonpng"/>
+                    </button>
+                </td>
+                <td>
+                    <button type="submit">
+                        <img src="flower.jpg" alt="buttonpng"/>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">
+                    <img src="flower.jpg" alt="buttonpng"/>
+                    </button>
+                </td>
+                <td>
+                    <button type="submit">
+                        <img src="flower.jpg" alt="buttonpng"/>
+                    </button>
+                </td>
+            </tr>
+          </table>
+    </div>
+    <!--
+        <div id='header'>
+            <button id='newGame' class='headerbtn'>New Game</button>
+            Modal Window Form
+            <div id="myModal" class="modal">
+                <div class='modalcontent'>  
+                    <h1>Select<br>Game Properties!</h1>
+                    <form id="form">
+                        <div class="formcontent">
+                            <div class='formMessage'>Choose Grid Size!</div>
+                                <div class='chooseGrid'> 
+                                    <input type="radio" id="6" name="gridsize" value="6">
+                                    <label for="6">6</label>
+                                    <input type="radio" id="8" name="gridsize" value="8">
+                                    <label for="8">8</label>
+                                    <input type="radio" id="10" name="gridsize" value="10">
+                                    <label for="10">10</label>
+                                    <input type="radio" id="12" name="gridsize" value="12">
+                                    <label for="12">12</label>
+                                    <input type="radio" id="14" name="gridsize" value="14">
+                                    <label for="14">14</label>
+                                </div>
+                                <div class='formMessage'>
+                                    <label style='font-weight: bold' for="rockEnable">Enable Blockages?</label>
+                                    <input type="checkbox" id="rockEnable"/>
+                                </div>
+                                <div class='formMessage'>
+                                    <label for="rockNo" class='formMessage'>Number of Blockages:</label>
+                                    <input 
+                                        class="input" 
+                                        type="number" 
+                                        id="rockNo" 
+                                        placeholder="Not Too Many!"
+                                        min='0'
+                                        value = '0'
+                                    />
+                                </div>
+                            <button id="submit" type="button">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+             End Modal Form
+            <div id='title'>< - - - R E V E R S I - - - ></div>
+            <button id='reset' onclick='reset()' class='headerbtn'>Reset</button>
+        </div>
+    -->
+    <div id='maingrid'></div>
+</body>
+</html>

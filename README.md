@@ -1,2 +1,2 @@
-# ChromaCube
-For DTI project 3.007
+# Reversi-CYR
+Reversi by Chen Yirong
